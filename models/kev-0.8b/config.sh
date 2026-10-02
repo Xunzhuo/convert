@@ -1,0 +1,3 @@
+DISPLAY_NAME="Kev-0.8B"
+DEST_REPO="Kev-0.8B-GGUF"
+DEP_PRIMARY="jaredpalmer/kev-0.8b"
