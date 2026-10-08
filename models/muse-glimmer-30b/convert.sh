@@ -27,7 +27,7 @@ python3 "$LLAMA_CPP/convert_hf_to_gguf.py" "$PATH_DFLASH" \
 # note: ^output.weight is anchored, otherwise it also matches attn_output.weight
 FLAGS_Q4_K_M="--pure \
     --tensor-type token_embd.weight=q8_0 \
-    --tensor-type ^output.weight=q6_k \
+    --tensor-type ^output.weight=q8_0 \
     --tensor-type attn_=q8_0 \
     "
 
